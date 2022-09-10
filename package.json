@@ -1,0 +1,16 @@
+{
+  "name": "file-encryption",
+  "version": "1.0.0",
+  "description": "Encrypts files",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app.js"
+  },
+  "author": "Bhupender Singh",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.0.2",
+    "express": "^4.18.1",
+    "mongoose": "^6.6.0"
+  }
+}
