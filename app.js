@@ -6,7 +6,7 @@ const mongoose  = require('mongoose');
 const DB_USER = process.env.DB_USER;
 const DB_PASS = process.env.DB_PASS;
 
-var DATABASE = process.env.DATABASE;
+let DATABASE = process.env.DATABASE;
 DATABASE = DATABASE.replace("<user>", DB_USER);
 DATABASE = DATABASE.replace("<password>", DB_PASS);
 
